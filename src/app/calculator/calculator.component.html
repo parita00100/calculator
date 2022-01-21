@@ -1,0 +1,35 @@
+<div class="cal-main container">
+  <div class="cal-header mt-3"><h3>Calculator</h3></div>
+  <div class="cal-body">
+    <table  class="cal-table mx-auto" >
+      <tr>
+         <td colspan="3"><input type="text" id="result" [(ngModel)]="calObj.resultText"></td>
+         <td><input type="button" value="c" (click)="clear()"/> </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" (click)="inputDisplay('7')"/> </td>
+        <td><input type="button" value="8" (click)="inputDisplay('8')"/> </td>
+        <td><input type="button" value="9" (click)="inputDisplay('9')"/> </td>
+         <td><input type="button" value="/" (click)="inputDisplay('/')"/> </td>
+      </tr>
+      <tr>
+         <td><input type="button" value="4" (click)="inputDisplay('4')"/> </td>
+         <td><input type="button" value="5" (click)="inputDisplay('5')"/> </td>
+         <td><input type="button" value="6" (click)="inputDisplay('6')"/> </td>
+         <td><input type="button" value="*" (click)="inputDisplay('*')"/> </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" (click)="inputDisplay('1')"/> </td>
+        <td><input type="button" value="2" (click)="inputDisplay('2')"/> </td>
+        <td><input type="button" value="3" (click)="inputDisplay('3')"/> </td>
+         <td><input type="button" value="-" (click)="inputDisplay('-')"/> </td>
+      </tr>
+      <tr>
+         <td><input type="button" value="." (click)="inputDisplay('.')"/> </td>
+         <td><input type="button" value="0" (click)="inputDisplay('0')"/> </td>
+         <td><input type="button" class="result-button" value="=" (click)="result()"/> </td>
+         <td><input type="button" value="+" (click)="inputDisplay('+')"/> </td>
+      </tr>
+   </table>
+  </div>
+  </div>

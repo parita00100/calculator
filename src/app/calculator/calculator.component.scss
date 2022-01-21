@@ -1,0 +1,34 @@
+.cal-header {
+  text-align: center;
+}
+
+.cal-table {
+  width: 500px;
+  height: 500px;
+  border: transparent;
+}
+
+input[type="button"] {
+  background-color: #d3d3d3b5;
+  color: black;
+  border: solid black 1px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+input[type="button"]:hover{
+  background-color: gray;
+}
+
+input[type="text"] {
+  background-color: white;
+  border: solid black  1px;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+}
+
+.result-button {
+  background-color: #d3d3d3b5;
+}
